@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hika — Practical LLM tooling</title>
+  <desc id="desc">Dataset preparation, data quality, fine-tuning, and agent tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1729"/>
+      <stop offset="1" stop-color="#172e46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <g fill="none" stroke="#65d6d0" stroke-opacity=".2" stroke-width="2">
+    <path d="M850 65h120l70 85-70 85H850l-70-85z"/>
+    <path d="M935 65h120l70 85-70 85H935l-70-85z"/>
+    <path d="M780 150h345M910 65v170M995 65v170"/>
+  </g>
+  <rect x="64" y="58" width="44" height="5" rx="2.5" fill="#65d6d0"/>
+  <text x="64" y="135" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="700">Hika</text>
+  <text x="64" y="184" fill="#65d6d0" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">Practical LLM tooling</text>
+  <text x="64" y="236" fill="#b4c4d7" font-family="Segoe UI,Arial,sans-serif" font-size="18">DATASETS / QUALITY / FINE-TUNING / AGENTS</text>
+</svg>
