@@ -24,7 +24,6 @@ My interests include multimodal learning, subject-level evaluation, reliable lan
 | **[LLM Dataset Inspector](https://github.com/hikabarki/llm-dataset-inspector)** | Dataset structure, duplicate checks, chat formats, token budgets, and train/evaluation leakage, with evidence and remediation suggestions. |
 | **[MKD Fine-Tuning Platform](https://github.com/hikabarki/MKD--Finetuning-platform)** | Gradio and FastAPI interfaces for NVIDIA GPU fine-tuning of text and vision-language models; setup and deployment documentation. |
 | **[SkillForge](https://github.com/hikabarki/skillforge)** | Reproducible training-data pipeline and fixture evaluation for agent-skill selection and abstention. CPU pipeline implemented; model training pending. |
-| **[Context-window tooling](https://github.com/hikabarki/user-input-context-limit)** | Token-window processing and a reverse proxy for oversized inputs to OpenAI-compatible vLLM endpoints. |
 
 ## Research and selected publications
 
