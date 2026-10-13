@@ -53,10 +53,10 @@ Click any preview to explore its repository. These are existing project artifact
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/hikabarki/Keural-VLM-Mid-level"><img src="assets/gallery/vlm-vision-contribution.png" alt="Keural Mid VLM repository chart comparing sighted and blind evaluation results" width="400"></a>
+<a href="https://github.com/hikabarki/Keural-VLM-Mid-level"><img src="assets/gallery/vlm-mid-architecture.svg" alt="Keural Mid VLM block diagram: frozen vision encoder, trainable level-aware projector, question tokens, Qwen2.5 decoder with LoRA, and bilingual answers" width="400"></a>
 <h3><a href="https://github.com/hikabarki/Keural-VLM-Mid-level">Keural VLM · Mid</a></h3>
 <p>Bilingual vision-language modeling and sighted-versus-blind evaluation.</p>
-<p><sub>Repository-reported evaluation chart · not rerun for this gallery</sub></p>
+<p><sub>Compact vector block diagram · frozen and trainable components labeled</sub></p>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/hikabarki/VISION-ENCODER_tiny"><img src="assets/gallery/vision-tiny-architecture.gif" alt="Animated Keural tiny vision-language architecture illustration" width="400"></a>

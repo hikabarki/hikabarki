@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc">
+  <title id="title">Keural Mid VLM — bilingual vision-language architecture</title>
+  <desc id="desc">An image passes through the frozen Keural vision encoder and trainable level-aware projector. Projected visual tokens and a tokenized question enter a frozen Qwen2.5-7B-Instruct decoder with trainable LoRA adapters to produce an English or Korean answer.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#9db5cc"/></marker></defs>
+  <rect width="1000" height="680" rx="24" fill="#101c2c"/>
+  <rect x="40" y="35" width="40" height="4" rx="2" fill="#5bd9d1"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="40" y="84" fill="#f2f6fc" font-size="34" font-weight="700">Keural VLM · Mid</text>
+    <text x="40" y="116" fill="#b9cadd" font-size="20">Adaptive visual tokens + bilingual language generation</text>
+    <g fill="#1c3049" stroke="#52728f" stroke-width="2">
+      <rect x="40" y="153" width="210" height="75" rx="14"/>
+      <rect x="350" y="153" width="610" height="75" rx="14"/>
+      <rect x="40" y="272" width="600" height="94" rx="14"/>
+      <rect x="710" y="272" width="250" height="94" rx="14"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="145" y="198" fill="#f2f6fc" font-size="26" font-weight="600">Input image</text>
+      <text x="655" y="185" fill="#f2f6fc" font-size="26" font-weight="600">User question · EN / KO</text>
+      <text x="655" y="212" fill="#b9cadd" font-size="19">Text tokenization</text>
+      <text x="340" y="309" fill="#f2f6fc" font-size="26" font-weight="600">Keural vision encoder</text>
+      <text x="340" y="343" fill="#b9cadd" font-size="20">Adaptive tokens · hierarchical levels · frozen</text>
+      <text x="835" y="309" fill="#f2f6fc" font-size="25" font-weight="600">Text tokens</text>
+      <text x="835" y="343" fill="#b9cadd" font-size="19">Question / prompt</text>
+    </g>
+    <g stroke="#9db5cc" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M145 230V265"/><path d="M835 230V265"/><path d="M340 368V402"/></g>
+    <rect x="40" y="410" width="600" height="80" rx="14" fill="#17383d" stroke="#5bd9d1" stroke-width="2"/>
+    <text x="340" y="444" text-anchor="middle" fill="#f2f6fc" font-size="26" font-weight="600">Level-aware projector</text>
+    <text x="340" y="474" text-anchor="middle" fill="#a9e4df" font-size="20">Visual → language embeddings · trainable</text>
+    <g stroke="#9db5cc" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M340 492V523"/><path d="M835 368V512H755V523"/></g>
+    <rect x="40" y="531" width="920" height="80" rx="14" fill="#293251" stroke="#8999cb" stroke-width="2"/>
+    <text x="500" y="565" text-anchor="middle" fill="#f2f6fc" font-size="26" font-weight="700">Qwen2.5-7B-Instruct + LoRA</text>
+    <text x="500" y="594" text-anchor="middle" fill="#cfdbf5" font-size="20">Frozen base decoder · trainable adapters</text>
+    <path d="M500 613V630" fill="none" stroke="#9db5cc" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="500" y="657" text-anchor="middle" fill="#5bd9d1" font-size="24" font-weight="700">Bilingual answer · English / Korean</text>
+  </g>
+</svg>
