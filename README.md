@@ -31,10 +31,10 @@ Click any preview to explore its repository. These are existing project artifact
 <p><sub>Example audit report · six-row synthetic fixture</sub></p>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/hikabarki/MKD--Finetuning-platform"><img src="assets/gallery/finetuning-architecture.png" alt="MKD fine-tuning platform repository architecture diagram" width="400"></a>
+<a href="https://github.com/hikabarki/MKD--Finetuning-platform"><img src="assets/gallery/finetuning-architecture.svg" alt="Compact MKD fine-tuning architecture: Gradio and CLI, FastAPI, dataset preparation, GPU training, evaluation, and serving" width="400"></a>
 <h3><a href="https://github.com/hikabarki/MKD--Finetuning-platform">MKD Fine-Tuning Platform</a></h3>
 <p>Dataset preparation, GPU training, evaluation, and serving interfaces.</p>
-<p><sub>Repository architecture asset · inspect README for current implementation</sub></p>
+<p><sub>Compact vector architecture · inspect README for implementation details</sub></p>
 </td>
 </tr>
 <tr>
