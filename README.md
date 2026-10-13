@@ -4,7 +4,7 @@
 
 **Dataset preparation · Data quality · Fine-tuning · Agent tooling**
 
-[Explore my projects](https://github.com/mkd-hika?tab=repositories)
+[Explore my projects](https://github.com/mkd-hika?tab=repositories) · [Hugging Face](https://huggingface.co/mkd-hika) · [Dataset Inspector demo](https://huggingface.co/spaces/mkd-hika/llm-dataset-inspector)
 
 </div>
 
@@ -22,6 +22,12 @@ My public projects focus on Python tooling, local processing, and interfaces tha
 | **[LLM Dataset Inspector](https://github.com/mkd-hika/llm-dataset-inspector)** | Audits dataset structure, duplicates, chat formats, token budgets, and train/eval leakage, with evidence and remediation suggestions. |
 | **[MKD Fine-Tuning Platform](https://github.com/mkd-hika/MKD--Finetuning-platform)** | Provides a Gradio UI and FastAPI API for NVIDIA GPU fine-tuning of text and vision-language models. |
 | **[SkillForge](https://github.com/mkd-hika/skillforge)** | Builds training data from agent skills and evaluates skill selection and abstention. The CPU data pipeline is implemented; model training is pending. |
+
+## Try the projects
+
+- **[Dataset Builder example](https://github.com/mkd-hika/sft-dataset-builder/tree/main/examples):** turn the bundled text into three training samples with one command.
+- **[Dataset Inspector report](https://github.com/mkd-hika/llm-dataset-inspector/tree/main/examples):** reproduce an audit and inspect its JSON, HTML, and Markdown outputs.
+- **[SkillForge fixture baselines](https://github.com/mkd-hika/skillforge/tree/main/examples):** reproduce the CPU pipeline and view its baseline reports. No model training is claimed.
 
 ## Tools I work with
 
