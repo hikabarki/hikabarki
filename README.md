@@ -6,6 +6,8 @@
 
 [Research publications](https://scholar.google.com/citations?user=tGNh80cAAAAJ&hl=en) · [Hugging Face](https://huggingface.co/Hikaf143) · [Selected portfolio](https://huggingface.co/collections/Hikaf143/korean-llms-and-synthetic-clinical-text-safeguards-6acdc88354cc57f9dc7a9421) · [Company work](https://github.com/MKD-CORP)
 
+My other GitHub account: **[mkd-hika](https://github.com/mkd-hika)** — earlier work, activity, and GitHub achievements.
+
 </div>
 
 ## About
