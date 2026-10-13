@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc">
+  <title id="title">LLM Dataset Inspector — inspection pipeline</title>
+  <desc id="desc">Dataset inputs pass through loading and inspection for structure, quality, formats, safety indicators, and split leakage. Checks produce pass, warning, or failure findings with evidence and remediation, exported as HTML, JSON, or a dataset card. This is a documentation diagram, not a measured result.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#9db5cc"/></marker></defs>
+  <rect width="1000" height="680" rx="24" fill="#101c2c"/>
+  <rect x="40" y="35" width="40" height="4" rx="2" fill="#5bd9d1"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="40" y="84" text-anchor="start" fill="#f2f6fc" font-size="34" font-weight="700">LLM Dataset Inspector</text>
+    <text x="40" y="116" text-anchor="start" fill="#b9cadd" font-size="20">Dataset inputs → inspection → evidence-backed reports</text>
+    <rect x="40" y="150" width="920" height="80" rx="14" fill="#1c3049" stroke="#52728f" stroke-width="2"/>
+    <text x="500" y="184" fill="#f2f6fc" font-size="26" font-weight="600">Load dataset</text>
+    <text x="500" y="214" fill="#b9cadd" font-size="20">Hub / URL / local files · CSV · JSONL · Parquet</text>
+    <path d="M500 232V271" fill="none" stroke="#9db5cc" stroke-width="3" marker-end="url(#arrow)"/>
+    <g fill="#17383d" stroke="#4b8a93" stroke-width="2">
+      <rect x="40" y="280" width="285" height="95" rx="14"/>
+      <rect x="357" y="280" width="286" height="95" rx="14"/>
+      <rect x="675" y="280" width="285" height="95" rx="14"/>
+    </g>
+    <g fill="#f2f6fc" font-size="25" font-weight="600"><text x="182" y="318">Structure</text><text x="500" y="318">Quality &amp; format</text><text x="817" y="318">Safety &amp; integrity</text></g>
+    <g fill="#c9d8e8" font-size="19"><text x="182" y="351">Schema · missing values</text><text x="500" y="351">Duplicates · chat · tokens</text><text x="817" y="351">PII flags · split leakage</text></g>
+    <g stroke="#9db5cc" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M182 377V414H500V434"/><path d="M500 377V434"/><path d="M817 377V414H500" marker-end="none"/></g>
+    <rect x="40" y="443" width="920" height="88" rx="14" fill="#293251" stroke="#8999cb" stroke-width="2"/>
+    <text x="500" y="480" fill="#f2f6fc" font-size="26" font-weight="700">PASS / WARN / FAIL</text>
+    <text x="500" y="513" fill="#cfdbf5" font-size="20">Row-level evidence · severity · remediation suggestions</text>
+    <path d="M500 533V573" fill="none" stroke="#9db5cc" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="40" y="582" width="920" height="58" rx="12" fill="#17383d" stroke="#5bd9d1" stroke-width="2"/>
+    <text x="500" y="620" fill="#f2f6fc" font-size="25" font-weight="600">HTML report · JSON metadata · dataset card</text>
+    <text x="40" y="663" text-anchor="start" fill="#a9bfd4" font-size="15">Documentation overview. Heuristic checks flag issues; they do not certify privacy or dataset quality.</text>
+  </g>
+</svg>

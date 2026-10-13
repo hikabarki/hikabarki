@@ -25,10 +25,10 @@ Click any preview to explore its repository. These are existing project artifact
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/hikabarki/llm-dataset-inspector"><img src="assets/gallery/dataset-inspector.png" alt="Dataset Inspector: actual synthetic-fixture audit report with pass, fail, and warning counts" width="400"></a>
+<a href="https://github.com/hikabarki/llm-dataset-inspector"><img src="assets/gallery/dataset-inspector-architecture.svg" alt="Dataset Inspector block diagram: dataset loading, structure, quality, safety and leakage checks, evidence-backed findings, and report exports" width="400"></a>
 <h3><a href="https://github.com/hikabarki/llm-dataset-inspector">LLM Dataset Inspector</a></h3>
 <p>Structure, quality, formatting, and leakage checks with evidence.</p>
-<p><sub>Example audit report · six-row synthetic fixture</sub></p>
+<p><sub>Compact vector pipeline · checks, evidence, and report exports</sub></p>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/hikabarki/MKD--Finetuning-platform"><img src="assets/gallery/finetuning-architecture.svg" alt="Compact MKD fine-tuning architecture: Gradio and CLI, FastAPI, dataset preparation, GPU training, evaluation, and serving" width="400"></a>
