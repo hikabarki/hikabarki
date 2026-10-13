@@ -2,7 +2,7 @@
 
 ![Hika Barki — Biomedical AI Research, VLM, & LLM Engineer](assets/profile-banner.svg)
 
-**Biomedical AI · Multimodal Learning · LLM Engineering · Reproducible Systems**
+**Biomedical AI · Multimodal Learning · LLM Engineer · Reproducible Systems**
 
 [Research publications](https://scholar.google.com/citations?user=tGNh80cAAAAJ&hl=en) · [Hugging Face](https://huggingface.co/Hikaf143) · [Selected portfolio](https://huggingface.co/collections/Hikaf143/korean-llms-and-synthetic-clinical-text-safeguards-6acdc88354cc57f9dc7a9421) · [Company work](https://github.com/MKD-CORP)
 
