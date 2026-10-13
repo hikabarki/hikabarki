@@ -1,6 +1,6 @@
 <div align="center">
 
-![Hika Barki — Biomedical AI Research & LLM Engineering](assets/profile-banner.svg)
+![Hika Barki — Biomedical AI Research, VLM, & LLM Engineer](assets/profile-banner.svg)
 
 **Biomedical AI · Multimodal Learning · LLM Engineering · Reproducible Systems**
 
