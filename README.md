@@ -18,6 +18,55 @@ At MKD, I work on Korean–English language-model workflows and the engineering 
 
 My interests include multimodal learning, subject-level evaluation, reliable language-model systems, and privacy-conscious AI for healthcare and enterprise applications.
 
+## Project gallery
+
+Click any preview to explore its repository. These are existing project artifacts and documentation diagrams; the GIF is an animated architecture illustration, not a recording of a running application.
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/llm-dataset-inspector"><img src="assets/gallery/dataset-inspector.png" alt="Dataset Inspector: actual synthetic-fixture audit report with pass, fail, and warning counts" width="400"></a>
+<h3><a href="https://github.com/hikabarki/llm-dataset-inspector">LLM Dataset Inspector</a></h3>
+<p>Structure, quality, formatting, and leakage checks with evidence.</p>
+<p><sub>Example audit report · six-row synthetic fixture</sub></p>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/MKD--Finetuning-platform"><img src="assets/gallery/finetuning-architecture.png" alt="MKD fine-tuning platform repository architecture diagram" width="400"></a>
+<h3><a href="https://github.com/hikabarki/MKD--Finetuning-platform">MKD Fine-Tuning Platform</a></h3>
+<p>Dataset preparation, GPU training, evaluation, and serving interfaces.</p>
+<p><sub>Repository architecture asset · inspect README for current implementation</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/user-input-context-limit"><img src="assets/gallery/context-flow.svg" alt="Context-window tooling: client, token-aware proxy, host API, vLLM, and tokenize-window-infer-merge path" width="400"></a>
+<h3><a href="https://github.com/hikabarki/user-input-context-limit">Context-Window Tooling</a></h3>
+<p>Token-aware request handling and oversized-input processing.</p>
+<p><sub>Documentation schematic · not a live trace</sub></p>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/Keural-Vision-Encoder-Mid-level"><img src="assets/gallery/vision-mid-architecture.png" alt="Keural mid-level vision encoder: CNN stem, saliency, adaptive tokens, hierarchical concepts, and spatial transformer" width="400"></a>
+<h3><a href="https://github.com/hikabarki/Keural-Vision-Encoder-Mid-level">Keural Vision Encoder · Mid</a></h3>
+<p>Content-adaptive tokenization and hierarchical visual representations.</p>
+<p><sub>Original technical architecture diagram</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/Keural-VLM-Mid-level"><img src="assets/gallery/vlm-vision-contribution.png" alt="Keural Mid VLM repository chart comparing sighted and blind evaluation results" width="400"></a>
+<h3><a href="https://github.com/hikabarki/Keural-VLM-Mid-level">Keural VLM · Mid</a></h3>
+<p>Bilingual vision-language modeling and sighted-versus-blind evaluation.</p>
+<p><sub>Repository-reported evaluation chart · not rerun for this gallery</sub></p>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/hikabarki/VISION-ENCODER_tiny"><img src="assets/gallery/vision-tiny-architecture.gif" alt="Animated Keural tiny vision-language architecture illustration" width="400"></a>
+<h3><a href="https://github.com/hikabarki/VISION-ENCODER_tiny">Keural Vision Encoder · Tiny</a></h3>
+<p>Image-to-token-to-language pipeline with an adaptive visual token budget.</p>
+<p><sub>Animated architecture · original project GIF</sub></p>
+</td>
+</tr>
+</table>
+
 ## Featured engineering projects
 
 | Project | What to inspect |

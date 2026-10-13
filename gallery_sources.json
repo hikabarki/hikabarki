@@ -1,0 +1,52 @@
+[
+  {
+    "asset": "dataset-inspector.png",
+    "source": "hikabarki/llm-dataset-inspector/docs/images/example-audit.png",
+    "sha": "aa1a6f46ab93a0ebc0791ff2c28c4e2af1b75765",
+    "bytes": 45360,
+    "dimensions": [
+      1600,
+      752
+    ]
+  },
+  {
+    "asset": "finetuning-architecture.png",
+    "source": "hikabarki/MKD--Finetuning-platform/docs/mkd_ft_architecture.png",
+    "sha": "d6291d1170dfcd81a19315dfad931db5effafbcd",
+    "bytes": 203516,
+    "dimensions": [
+      2730,
+      1980
+    ]
+  },
+  {
+    "asset": "vision-mid-architecture.png",
+    "source": "hikabarki/Keural-Vision-Encoder-Mid-level/assets/keural_mid_architecture.png",
+    "sha": "120b9338133e8fc64d237f0298b47c4e1ee887f6",
+    "bytes": 1145045,
+    "dimensions": [
+      4296,
+      2916
+    ]
+  },
+  {
+    "asset": "vlm-vision-contribution.png",
+    "source": "hikabarki/Keural-VLM-Mid-level/docs/figures/stage2_vision_contribution.png",
+    "sha": "a109291f82be70d2a786e7b1cadfb74f18472511",
+    "bytes": 100968,
+    "dimensions": [
+      1638,
+      899
+    ]
+  },
+  {
+    "asset": "vision-tiny-architecture.gif",
+    "source": "hikabarki/VISION-ENCODER_tiny/project_plan/keural_vision_encoder.gif",
+    "sha": "6b455638c645d78cb0d58ddb8ab7245c8fb07cc0",
+    "bytes": 2790218,
+    "dimensions": [
+      1377,
+      342
+    ]
+  }
+]

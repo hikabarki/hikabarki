@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+<title id="title">Context-window processing architecture</title>
+<desc id="desc">A client sends requests through a token-aware proxy to a host API and vLLM. Oversized inputs use a tokenize, window, inference, and merge pipeline.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#5bd9d1"/></marker></defs>
+<rect width="1000" height="480" rx="20" fill="#101c2c"/>
+<text x="40" y="57" fill="#f2f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Context-window processing</text>
+<text x="40" y="87" fill="#9fb5ca" font-family="Segoe UI,Arial,sans-serif" font-size="16">Token-aware proxy + independent processing pipeline</text>
+<g fill="#1c3049" stroke="#3d6079" stroke-width="2"><rect x="40" y="135" width="175" height="86" rx="12"/><rect x="285" y="135" width="195" height="86" rx="12"/><rect x="550" y="135" width="180" height="86" rx="12"/><rect x="800" y="135" width="160" height="86" rx="12"/></g>
+<g fill="#f2f6fc" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600"><text x="127" y="185">Client</text><text x="382" y="174">Token-aware</text><text x="382" y="200">proxy</text><text x="640" y="185">Host API</text><text x="880" y="185">vLLM</text></g>
+<g stroke="#5bd9d1" stroke-width="3" marker-end="url(#arrow)"><path d="M217 178H279"/><path d="M482 178H544"/><path d="M732 178H794"/></g>
+<text x="40" y="275" fill="#5bd9d1" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">Oversized-input path</text>
+<g fill="#152b3f" stroke="#42658a"><rect x="40" y="305" width="195" height="66" rx="10"/><rect x="282" y="305" width="195" height="66" rx="10"/><rect x="524" y="305" width="195" height="66" rx="10"/><rect x="766" y="305" width="194" height="66" rx="10"/></g>
+<g fill="#c9d8e8" font-family="Segoe UI,Arial,sans-serif" font-size="19" text-anchor="middle"><text x="137" y="345">Tokenize</text><text x="380" y="345">Window</text><text x="622" y="345">Infer</text><text x="863" y="345">Merge</text></g>
+<g stroke="#5bd9d1" stroke-width="2" marker-end="url(#arrow)"><path d="M237 338H276"/><path d="M479 338H518"/><path d="M721 338H760"/></g>
+<text x="40" y="431" fill="#9fb5ca" font-family="Segoe UI,Arial,sans-serif" font-size="14">Documentation schematic based on user-input-context-limit README; not a live execution trace.</text>
+</svg>
